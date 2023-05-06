@@ -30,7 +30,7 @@
     "node": ">=16.20.0"
   },
   "dependencies": {
-    "@y13i/sort-keys": "0.2.0",
+    "@y13i/sort-keys": "0.2.1",
     "commander": "10.0.1",
     "js-yaml": "4.1.0"
   }
