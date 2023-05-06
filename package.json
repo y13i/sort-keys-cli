@@ -1,0 +1,37 @@
+{
+  "name": "@y13i/sort-keys-cli",
+  "version": "0.1.0",
+  "description": "Sort keys of the given YAML/JSON via STDIN.",
+  "author": {
+    "name": "Yoriki Yamaguchi",
+    "email": "yorikiyamaguchi@gmail.com",
+    "url": "https://y13i.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/y13i/sort-keys",
+  "bugs": {
+    "url": "https://github.com/y13i/sort-keys/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y13i/sort-keys.git"
+  },
+  "keywords": [
+    "sort",
+    "keys",
+    "cli",
+    "json",
+    "yaml"
+  ],
+  "bin": {
+    "sort-keys": "bin/index.js"
+  },
+  "engines": {
+    "node": ">=16.20.0"
+  },
+  "dependencies": {
+    "@y13i/sort-keys": "0.2.0",
+    "commander": "10.0.1",
+    "js-yaml": "4.1.0"
+  }
+}
