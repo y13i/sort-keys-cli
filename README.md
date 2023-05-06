@@ -8,6 +8,8 @@ Sort keys of the given YAML/JSON via STDIN.
 npm install -g sort-keys-cli
 ```
 
+[The container image](https://github.com/y13i/sort-keys-cli/pkgs/container/sort-keys-cli) is also available.
+
 ## Usage
 
 ```sh
@@ -28,6 +30,10 @@ Options:
 
 ```sh
 echo '{"b": "foo", "a": "bar"}' | sort-keys
+```
+
+```sh
+kubectl -n kube-system get configmap kube-root-ca.crt | docker run --rm -i ghcr.io/y13i/sort-keys-cli:latest -k kind metadata name namespace labels annotations
 ```
 
 ## Node.js Library
