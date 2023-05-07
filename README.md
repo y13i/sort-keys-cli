@@ -1,5 +1,7 @@
 # sort-keys-cli
 
+[![npm version](https://badge.fury.io/js/@y13i%2Fsort-keys-cli.svg)](https://badge.fury.io/js/@y13i%2Fsort-keys-cli)
+
 Sort keys of the given YAML/JSON via STDIN.
 
 ## Install
