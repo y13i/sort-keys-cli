@@ -7,7 +7,7 @@ Sort keys of the given YAML/JSON via STDIN.
 ## Install
 
 ```sh
-npm install -g sort-keys-cli
+npm install -g @y13i/sort-keys-cli
 ```
 
 [The container image](https://github.com/y13i/sort-keys-cli/pkgs/container/sort-keys-cli) is also available.
