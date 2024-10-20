@@ -35,6 +35,10 @@ echo '{"b": "foo", "a": "bar"}' | sort-keys
 ```
 
 ```sh
+cat something.json | npx @y13i/sort-keys-cli -o json | jq
+```
+
+```sh
 kubectl -n kube-system -o yaml get configmap kube-root-ca.crt | docker run --rm -i ghcr.io/y13i/sort-keys-cli:latest -k apiVersion kind metadata name namespace labels annotations
 ```
 
