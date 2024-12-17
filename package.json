@@ -1,6 +1,6 @@
 {
   "name": "@y13i/sort-keys-cli",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Sort keys of the given YAML/JSON via STDIN.",
   "author": {
     "name": "Yoriki Yamaguchi",
@@ -27,7 +27,7 @@
     "sort-keys": "bin/index.js"
   },
   "engines": {
-    "node": ">=16.20.0"
+    "node": ">=18.20.0"
   },
   "dependencies": {
     "@y13i/sort-keys": "0.4.0",

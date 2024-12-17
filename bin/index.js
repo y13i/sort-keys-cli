@@ -18,11 +18,16 @@ program
 
 const option = program.opts();
 
-process.stdin.on("data", data => {
-  const parsedData = load(data.toString());
+(async ()=>{
+  const buffers = [];
 
-  const sortedData = sortKeys(parsedData, {
-    depth: option.depth ? parseInt(option.depth) : undefined,
+  for await (const chunk of process.stdin) buffers.push(chunk);
+  
+  const inputString = Buffer.concat(buffers).toString();
+  const data = load(inputString);
+
+  const sortedData = sortKeys(data, {
+    depth: option.depth ? Number.parseInt(option.depth) : undefined,
 
     prioritize: {
       keys: option.prioritizeKeys,
@@ -33,4 +38,4 @@ process.stdin.on("data", data => {
   const output = option.output === "json" ? JSON.stringify(sortedData) : dump(sortedData);
 
   process.stdout.write(output);
-});
+})();
