@@ -22,7 +22,7 @@ process.stdin.on("data", data => {
   const parsedData = load(data.toString());
 
   const sortedData = sortKeys(parsedData, {
-    depth: option.depth ? parseInt(option.depth) : undefined,
+    depth: option.depth ? Number.parseInt(option.depth) : undefined,
 
     prioritize: {
       keys: option.prioritizeKeys,
