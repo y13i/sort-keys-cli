@@ -32,6 +32,6 @@
   "dependencies": {
     "@y13i/sort-keys": "0.4.0",
     "commander": "14.0.2",
-    "js-yaml": "4.1.0"
+    "js-yaml": "4.1.1"
   }
 }
