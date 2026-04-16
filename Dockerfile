@@ -1,4 +1,4 @@
-FROM node:24.13.1-slim
+FROM node:24.15.0-slim
 
 COPY package.json package-lock.json ./
 RUN npm ci
