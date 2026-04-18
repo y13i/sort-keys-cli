@@ -3,8 +3,8 @@
   "version": "0.6.1",
   "description": "Sort keys of the given YAML/JSON via STDIN.",
   "author": {
-    "name": "Yoriki Yamaguchi",
-    "email": "yorikiyamaguchi@gmail.com",
+    "name": "Yoriki Honda",
+    "email": "y13i@y13i.com",
     "url": "https://y13i.com/"
   },
   "license": "MIT",
