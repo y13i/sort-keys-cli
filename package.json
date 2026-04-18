@@ -8,13 +8,13 @@
     "url": "https://y13i.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/y13i/sort-keys",
+  "homepage": "https://github.com/y13i/sort-keys-cli",
   "bugs": {
-    "url": "https://github.com/y13i/sort-keys/issues"
+    "url": "https://github.com/y13i/sort-keys-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y13i/sort-keys.git"
+    "url": "git+https://github.com/y13i/sort-keys-cli.git"
   },
   "keywords": [
     "sort",
