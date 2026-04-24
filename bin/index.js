@@ -11,7 +11,7 @@ const { version } = JSON.parse(
 program
 	.name("sort-keys")
 	.usage("[options]")
-	.description("Sort keys of the given YAML/JSON via STDIN.")
+	.description("Sort YAML/JSON keys via STDIN.")
 	.version(version)
 	.option(
 		"-d, --depth <number>",
