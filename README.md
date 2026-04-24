@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/@y13i%2Fsort-keys-cli.svg)](https://badge.fury.io/js/@y13i%2Fsort-keys-cli)
 
-Sort keys of the given YAML/JSON via STDIN.
+Sort YAML/JSON keys via STDIN.
 
 ## Install
 
@@ -42,6 +42,6 @@ cat something.json | npx @y13i/sort-keys-cli -o json | jq
 kubectl -n kube-system -o yaml get configmap kube-root-ca.crt | docker run --rm -i ghcr.io/y13i/sort-keys-cli:latest -k apiVersion kind metadata name namespace labels annotations
 ```
 
-## Node.js Library
+## JavaScript Library
 
 See [y13i/sort-keys](https://github.com/y13i/sort-keys).

@@ -1,37 +1,41 @@
 {
-  "name": "@y13i/sort-keys-cli",
-  "version": "0.6.2",
-  "description": "Sort keys of the given YAML/JSON via STDIN.",
-  "author": {
-    "name": "Yoriki Honda",
-    "email": "y13i@y13i.com",
-    "url": "https://y13i.com/"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/y13i/sort-keys-cli",
-  "bugs": {
-    "url": "https://github.com/y13i/sort-keys-cli/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/y13i/sort-keys-cli.git"
-  },
-  "keywords": [
-    "sort",
-    "keys",
-    "cli",
-    "json",
-    "yaml"
-  ],
-  "bin": {
-    "sort-keys": "bin/index.js"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "@y13i/sort-keys": "0.5.1",
-    "commander": "14.0.3",
-    "js-yaml": "4.1.1"
-  }
+	"name": "@y13i/sort-keys-cli",
+	"version": "0.7.0",
+	"description": "Sort keys of the given YAML/JSON via STDIN.",
+	"author": {
+		"name": "Yoriki Honda",
+		"email": "y13i@y13i.com",
+		"url": "https://y13i.com/"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/y13i/sort-keys-cli",
+	"bugs": {
+		"url": "https://github.com/y13i/sort-keys-cli/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/y13i/sort-keys-cli.git"
+	},
+	"keywords": [
+		"sort",
+		"keys",
+		"cli",
+		"json",
+		"yaml"
+	],
+	"bin": {
+		"sort-keys": "bin/index.js"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
+	"dependencies": {
+		"@y13i/sort-keys": "0.6.0",
+		"commander": "14.0.3",
+		"js-yaml": "4.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.13"
+	}
 }
