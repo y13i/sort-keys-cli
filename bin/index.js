@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { readFile } from "fs/promises";
-import { program } from "commander";
-import { load, dump } from "js-yaml";
+import { readFile } from "node:fs/promises";
 import { sortKeys } from "@y13i/sort-keys";
+import { program } from "commander";
+import { dump, load } from "js-yaml";
 
 const { version } = JSON.parse(
 	await readFile(new URL("../package.json", import.meta.url)),
@@ -37,7 +37,7 @@ const inputString = Buffer.concat(buffers).toString();
 const data = load(inputString);
 
 const sortedData = sortKeys(data, {
-	depth: option.depth ? Number.parseInt(option.depth) : undefined,
+	depth: option.depth ? Number.parseInt(option.depth, 10) : undefined,
 	prioritize: {
 		keys: option.prioritizeKeys,
 		primitives: option.prioritizePrimitives,
