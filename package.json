@@ -26,6 +26,7 @@
   "bin": {
     "sort-keys": "bin/index.js"
   },
+  "type": "module",
   "engines": {
     "node": ">=20"
   },
