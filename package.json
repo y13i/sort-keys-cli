@@ -28,7 +28,7 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": ">=20"
+		"node": ">=22"
 	},
 	"dependencies": {
 		"@y13i/sort-keys": "0.6.0",
