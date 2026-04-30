@@ -15,15 +15,15 @@ program
 	.version(version)
 	.option(
 		"-d, --depth <number>",
-		"how many times to recursively sort keys in a nested object or an array",
+		"limits how many levels deep to recursively sort nested objects and arrays.",
 	)
 	.option(
 		"-k, --prioritize-keys <keys...>",
-		"prioritize the given keys in sorting",
+		"keys listed here are moved to the front, in the order given, before the remaining keys are sorted alphabetically.",
 	)
 	.option(
 		"-p, --prioritize-primitives",
-		"prioritize primitive values in sorting",
+		"keys with primitive values (numbers, strings, booleans, null, undefined) are sorted before keys with object or array values.",
 	)
 	.option("-o, --output <json|yaml>", "output format", "yaml")
 	.parse();

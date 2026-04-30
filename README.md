@@ -17,13 +17,13 @@ npm install -g @y13i/sort-keys-cli
 ```sh
 Usage: sort-keys [options]
 
-Sort keys of the given YAML/JSON.
+Sort YAML/JSON keys via STDIN.
 
 Options:
   -V, --version                    output the version number
-  -d, --depth <number>             how many times to recursively sort keys in a nested object or an array
-  -k, --prioritize-keys <keys...>  prioritize the given keys in sorting
-  -p, --prioritize-primitives      prioritize primitive values in sorting
+  -d, --depth <number>             limits how many levels deep to recursively sort nested objects and arrays.
+  -k, --prioritize-keys <keys...>  keys listed here are moved to the front, in the order given, before the remaining keys are sorted alphabetically.
+  -p, --prioritize-primitives      keys with primitive values (numbers, strings, booleans, null, undefined) are sorted before keys with object or array values.
   -o, --output <json|yaml>         output format (default: "yaml")
   -h, --help                       display help for command
 ```
