@@ -12,12 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
+      - uses: jetify-com/devbox-install-action@v0.15.0
         with:
-          node-version: 24.x
-          registry-url: "https://registry.npmjs.org"
-      - run: npm ci
-      - run: npm publish --access=public
+          enable-cache: true
+      - run: devbox run -- pnpm install --frozen-lockfile
+      - run: devbox run -- pnpm publish --access=public
   publish-docker:
     uses: y13i/actions/.github/workflows/docker.yml@main
     secrets:
