@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@y13i/sort-keys':
-        specifier: 0.6.0
-        version: 0.6.0
+        specifier: 0.8.3
+        version: 0.8.3
       commander:
         specifier: 14.0.3
         version: 14.0.3
@@ -81,9 +81,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@y13i/sort-keys@0.6.0':
-    resolution: {integrity: sha512-BGpPQunvjs1cRXEUKDM3CMBxTFYk18jLTaSkUvji/hLVWTXxuibXCI66I4g5r0J3EZ7X6j9HbR8dEz0WzwYPWw==}
-    engines: {node: '>=20'}
+  '@y13i/sort-keys@0.8.3':
+    resolution: {integrity: sha512-LoGVAVCnUrwcgeplN/5MxfHnybgO2BAL/fp6gpjc+oVvCRB7HNSPvf19jja0w6yFrSAYM+cId51RJoI7H8j8qg==}
+    engines: {node: '>=22'}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -133,7 +133,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.4.13':
     optional: true
 
-  '@y13i/sort-keys@0.6.0': {}
+  '@y13i/sort-keys@0.8.3': {}
 
   argparse@2.0.1: {}
 
