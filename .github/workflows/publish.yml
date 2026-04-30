@@ -16,7 +16,7 @@ jobs:
         with:
           enable-cache: true
       - run: devbox run -- pnpm install --frozen-lockfile
-      - run: devbox run -- pnpm publish --access=public
+      - run: devbox run -- pnpm publish --no-git-checks --access=public
   publish-docker:
     uses: y13i/actions/.github/workflows/docker.yml@main
     secrets:
