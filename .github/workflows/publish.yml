@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: jetify-com/devbox-install-action@v0.15.0
         with:
-          enable-cache: true
+          enable-cache: false
       - run: devbox run -- pnpm install --frozen-lockfile
       - run: devbox run -- pnpm publish --no-git-checks --access=public
   publish-docker:
