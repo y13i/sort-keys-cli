@@ -11,13 +11,13 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: jetify-com/devbox-install-action@v0.15.0
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: jetify-com/devbox-install-action@8c6a66ed6273138b1915457069de78cb52fe3bd7 # v0.15.0
         with:
           enable-cache: false
       - run: devbox run -- pnpm ci
       - run: devbox run -- pnpm publish --no-git-checks --access=public
   publish-docker:
-    uses: y13i/actions/.github/workflows/docker.yml@main
+    uses: y13i/actions/.github/workflows/docker.yml@89783884b6ace210f16e62dc3993afe3d1755bf9 # main
     secrets:
       dockerhub-access-token: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
