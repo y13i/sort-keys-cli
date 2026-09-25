@@ -2,12 +2,12 @@
   "lockfile_version": "1",
   "packages": {
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-09-13T01:58:51Z",
-      "resolved": "github:NixOS/nixpkgs/02f5696b0e6097e589076d886b317b83ff0437d7?lastModified=1789264731&narHash=sha256-llGJbC0CcU8DfROr6mZjRJgMLQd%2FSKwfpzxJH%2F2lHO4%3D"
+      "last_modified": "2026-09-24T08:34:56Z",
+      "resolved": "github:NixOS/nixpkgs/34ca302a9572963c02e385c056be37c85ff51b77?lastModified=1790238896&narHash=sha256-ym4BG18Pu2awiJIehla1Lo9xiB2QYRcCzW3SB74gEBY%3D"
     },
     "nodejs@24.12.0": {
       "last_modified": "2025-12-27T12:56:01Z",
-      "plugin_version": "0.0.4",
+      "plugin_version": "0.0.5",
       "resolved": "github:NixOS/nixpkgs/3edc4a30ed3903fdf6f90c837f961fa6b49582d1#nodejs_24",
       "source": "devbox-search",
       "version": "24.12.0",
