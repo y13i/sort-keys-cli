@@ -36,7 +36,7 @@
 		"js-yaml": "5.4.2"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.14"
+		"@biomejs/biome": "2.5.15"
 	},
 	"packageManager": "pnpm@12.8.1"
 }
