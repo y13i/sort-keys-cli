@@ -38,5 +38,5 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15"
 	},
-	"packageManager": "pnpm@12.8.2"
+	"packageManager": "pnpm@12.9.0"
 }
