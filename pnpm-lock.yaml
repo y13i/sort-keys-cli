@@ -243,8 +243,8 @@ packages:
     resolution: {integrity: sha512-LoGVAVCnUrwcgeplN/5MxfHnybgO2BAL/fp6gpjc+oVvCRB7HNSPvf19jja0w6yFrSAYM+cId51RJoI7H8j8qg==}
     engines: {node: '>=22'}
 
-  argparse@3.0.3:
-    resolution: {integrity: sha512-Sn98ftV3KfsO8xfLPHG6oT8y+b0yvbrLgZjgPDXsharNY15tTAjqIsIju4S32nl6/iEUNNE4v+yL2Zhm8ooP3w==}
+  argparse@3.0.4:
+    resolution: {integrity: sha512-fwWK3Zq22l4XJJjx5mcBHGikIk+hJqO+32dPm0Jur7+rtG5x1scOjSfdT9ZKeWHPpsya/l0HHK4tDImBkTrtvA==}
 
   commander@15.0.0:
     resolution: {integrity: sha512-z67u4ZhzCL/Tydu1lJARtEZYWbWaN7oYLHbsuzocr6y4N6WZAagG3RQ4FW61V1/0+jImpj293XfrcYnd1qxtPg==}
@@ -293,10 +293,10 @@ snapshots:
 
   '@y13i/sort-keys@0.8.3': {}
 
-  argparse@3.0.3: {}
+  argparse@3.0.4: {}
 
   commander@15.0.0: {}
 
   js-yaml@5.5.0:
     dependencies:
-      argparse: 3.0.3
+      argparse: 3.0.4
